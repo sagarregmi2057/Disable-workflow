@@ -1,0 +1,13 @@
+name: sagar regmi
+on:
+    push:
+        branches: [ main ]
+  
+jobs:
+    demo:
+        runs-on: ubuntu-latest
+
+           
+        steps: 
+         - name: Greetings
+           run: echo "We are disabling workflow"
